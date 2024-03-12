@@ -20,3 +20,6 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Contact
 For any questions or feedback, please contact [Tobias Randy](mailto:randyvarianchou@gmail.com).
+
+## License
+This project is licensed under the [MIT License](LICENSE).
