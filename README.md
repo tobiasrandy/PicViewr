@@ -11,9 +11,9 @@ PicViewr is a simple app that allows users to view a list of images fetched from
 3. Build and run the app on your device or emulator.
 
 ## Usage
-- Sign up or log in to access the photo gallery.
+- Sign up or log in to access the image gallery.
 - Set up display name.
-- Browse through the list of photos and view details for each photo.
+- Browse through the list of images.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
