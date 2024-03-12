@@ -8,7 +8,9 @@ PicViewr is a simple app that allows users to view a list of images fetched from
 ## Installation
 1. Clone the repository: `git clone https://github.com/tobiasrandy/PicVewr.git`
 2. Open the project in Android Studio.
-3. Build and run the app on your device or emulator.
+3. Set up Firebase Authentication in the Firebase Console and download the `google-services.json` file.
+4. Place the `google-services.json` file in the `app` directory of the project.
+5. Build and run the app on your device or emulator.
 
 ## Usage
 - Sign up or log in to access the image gallery.
