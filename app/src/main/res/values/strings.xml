@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PicViewr</string>
+    <string name="password">Password</string>
+    <string name="hint_username">Email</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="log_in">Log in</string>
+    <string name="have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="empty_picture">No Pictures to Display</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_password">Password must be at least 6 characters</string>
+    <string name="invalid_confirm_password">Passwords do not match</string>
+    <string name="name_cannot_be_empty">Name cannot be empty</string>
+    <string name="log_out">Log out</string>
+</resources>
