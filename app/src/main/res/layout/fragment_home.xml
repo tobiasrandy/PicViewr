@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/constraint_layout"
+    android:id="@+id/fragment_home_layout"
     tools:context="com.app.picviewr.fragment.HomeFragment">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

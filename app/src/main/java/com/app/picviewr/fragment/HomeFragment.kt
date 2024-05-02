@@ -17,7 +17,8 @@ import com.app.picviewr.databinding.FragmentHomeBinding
 import com.app.picviewr.presenter.HomePresenter
 import com.app.picviewr.util.EndlessRecyclerViewListener
 import dagger.hilt.android.AndroidEntryPoint
-import retrofit2.adapter.rxjava2.HttpException
+import retrofit2.HttpException
+
 import java.io.IOException
 import javax.inject.Inject
 
@@ -83,8 +84,15 @@ class HomeFragment : Fragment() {
         binding.swipeRefresh.isRefreshing = false
         val errorMessage = when (t) {
             is IOException -> "Network error. Please check your internet connection and try again."
-            is HttpException -> "An unexpected error occurred. Please try again."
-            else -> t.localizedMessage
+            is HttpException -> {
+                when (t.code()) {
+                    401 -> "Unauthorized. Please login again."
+                    404 -> "Resource not found."
+                    500 -> "Internal server error."
+                    else -> "An unexpected error occurred. Please try again."
+                }
+            }
+            else -> t.localizedMessage ?: "Unknown error occurred."
         }
 
         showEmptyState(photoList.isEmpty())

@@ -62,7 +62,7 @@ dependencies {
     implementation(libs.rxandroid)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
-    implementation (libs.androidx.swiperefreshlayout)
+    implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
