@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60566472309",
+    "project_id": "picviewr",
+    "storage_bucket": "picviewr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60566472309:android:8e2625ac2e0afa7c0f5a3c",
+        "android_client_info": {
+          "package_name": "com.app.picviewr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPO8HOiv4PflSLfNWMgEi9DSEZIKtmXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
